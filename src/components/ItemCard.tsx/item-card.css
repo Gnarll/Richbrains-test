@@ -1,0 +1,103 @@
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    height: 330px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 280px;
+}
+.green-bg {
+    background-color: #259609;
+}
+
+.green-line {
+    height: 6px;
+    width: 100%;
+    background-color: #259609;
+}
+
+.logo-wrapper {
+    height: 30px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.business-and-management {
+    font-size: 13px;
+    line-height: 20px; 
+    text-transform: uppercase; 
+    color: #259609;
+}
+
+.master-of-business {
+    height: 60px;
+    max-width: 222px;
+    align-self: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.more-info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px 10px 5px;
+    width: 222px;
+    background-color: #259609;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.more-info-pressed-btn {
+    background-color: #FFFFFF;
+    color: #259609
+}
+
+.description {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 170px;
+    margin-top: 30px;
+}
+
+
+.close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.white {
+    font-size: 14px;
+    line-height: 22px; 
+    color: #FFFFFF;
+}
+
+.price {
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .item {
+      max-width: 330px;
+    }
+}
